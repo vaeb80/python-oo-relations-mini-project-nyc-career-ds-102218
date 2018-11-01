@@ -2,11 +2,11 @@ class Review:
 
     _all = []
 
-    def __init__(self, guest, recipe, rating,review):
-        self._guest = guest
+    def __init__(self, guest, recipe, rating,comment):
+        self._reviewer = guest
         self._recipe = recipe
         self._rating = rating
-        self._review = review
+        self._comment = comment
         guest._reviews.append(self)
         recipe._reviews.append(self)
         self._all.append(self)
@@ -19,5 +19,11 @@ class Review:
     def rating(self):
         return self._rating
     @property
-    def guest(self):
-        return self._guest
+    def reviewer(self):
+        return self._reviewer
+    @property
+    def recipe(self):
+        return self._recipe
+    @property
+    def comment(self):
+        return self._comment

@@ -1,8 +1,1 @@
-{
-  "test/index_test.py::TestHasManyThroughMiniProj::test_dinner_party_instance_methods": true,
-  "test/index_test.py::TestHasManyThroughMiniProj::test_guest_instance_methods": true,
-  "test/index_test.py::TestHasManyThroughMiniProj::test_invite_instance_methods": true,
-  "test/index_test.py::TestHasManyThroughMiniProj::test_recipe_class_methods": true,
-  "test/index_test.py::TestHasManyThroughMiniProj::test_recipe_instance_methods": true,
-  "test/index_test.py::TestHasManyThroughMiniProj::test_review_instance_methods": true
-}
+{}
